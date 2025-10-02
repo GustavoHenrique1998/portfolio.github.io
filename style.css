@@ -35,7 +35,7 @@ section {
 
 .section-title {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 70px;
     margin-bottom: 50px;
     color: var(--white);
     position: relative;
@@ -88,7 +88,7 @@ section {
 
 .header__logo {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 24px;
     color: var(--white);
     text-decoration: none;
 }
@@ -156,7 +156,7 @@ section {
 }
 
 .hero__title {
-    font-size: 3.5rem;
+    font-size: 45px;
     font-weight: 700;
 }
 
@@ -167,7 +167,7 @@ section {
 }
 
 .hero__subtitle {
-    font-size: 1.5rem;
+    font-size: 24px;
     color: var(--text-secondary-color);
     margin: 20px 0 40px;
 }
@@ -231,12 +231,12 @@ section {
 }
 
 .skill-card__icon {
-    font-size: 3rem;
+    font-size: 24px;
     margin-bottom: 15px;
 }
 
 .skill-card__title {
-    font-size: 1rem;
+    font-size: 24px;
     font-weight: 400;
 }
 
@@ -275,7 +275,7 @@ section {
 }
 
 .project-card__title {
-    font-size: 1.5rem;
+    font-size: 24px;
     margin-bottom: 10px;
 }
 
@@ -293,7 +293,7 @@ section {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: 0.8rem;
+    font-size: 17px;
     margin-right: 5px;
 }
 
@@ -301,9 +301,9 @@ section {
     display: flex;
     gap: 10px;
 }
-.button--small { padding: 8px 20px; font-size: 0.9rem; }
-.button--ghost { background: transparent; border: 1px solid var(--primary-color); color: var(--primary-color); }
-.button--ghost:hover { background: var(--primary-color); color: var(--white); }
+.button--small { background: transparent; border: 1px solid var(--white); color: var(--white); }
+.button--ghost { background: transparent; border: 1px solid var(--white); color: var(--white); }
+.button--ghost:hover { background: var(--white); color: var(--white); }
 
 /* Seção Contato */
 .contact {
@@ -321,13 +321,13 @@ section {
     padding: 20px;
     background-color: var(--surface-color);
     color: var(--text-secondary-color);
-    font-size: 0.9rem;
+    font-size: 12px;
 }
 
 /* Responsividade */
 @media (max-width: 768px) {
     .header__menu { display: none; } /* Simplificação para mobile, ideal seria um menu hamburguer */
-    .hero__title { font-size: 2.5rem; }
-    .hero__subtitle { font-size: 1.2rem; }
+    .hero__title { font-size: 12px; }
+    .hero__subtitle { font-size: 12px; }
     .about__container { flex-direction: column; }
 }
